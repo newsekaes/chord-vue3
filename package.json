@@ -2,6 +2,10 @@
   "name": "chord-vue3",
   "private": true,
   "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/newsekaes/chord-vue3.git"
+  },
+  "homepage": "https://newsekaes.github.io/chord-vue3/",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
