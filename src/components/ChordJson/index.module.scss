@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.wrapper-content {
+  height: 50vh;
+  overflow-y: auto;
+  &.wrapper-content-text {
+    padding: 40px 10px;
+    p {
+      margin-bottom: 40px;
+    }
+  }
+}
+.block {
+  width: 80%;
+  //height: 70%;
+  background-color: #fff;
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .btn {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 10px 30px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    background: $primaryColor;
+    color: #FFFFFF;
+  }
+}
+.closed {
+  position: fixed;
+  color: #ffffff;
+  font-size: 40px;
+  left: 50%;
+  top: 15%;
+  transform: translate3d(-50%, -50%, 0);
+  cursor: pointer;
+}
